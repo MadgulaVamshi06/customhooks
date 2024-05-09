@@ -1,8 +1,7 @@
-# React + Vite
+The application allows users to input their username and password via a form.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Form state management is achieved using the useFormState custom hook, leveraging React Hooks (useState).
 
-Currently, two official plugins are available:
+Users can interact with the form by entering their username and password. Upon submission, the form data is displayed below the form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The form logic is modularized within the useFormState custom hook, promoting code reusability and maintainability.
